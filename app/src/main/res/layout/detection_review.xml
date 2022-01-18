@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetectionReviewActivity">
+
+    <ImageView
+        android:id="@+id/image_container"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/recognized_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Example Text" />
+    
+    <Button
+        android:id="@+id/back_to_scanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to scanning"
+        android:onClick="restartScanning" />
+</LinearLayout>
